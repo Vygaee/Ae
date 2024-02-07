@@ -55,3 +55,10 @@ return await command(
             url,
             fplay,
 )
+#close
+BUTTON=(
+Def Ase
+text_AlexaMusic_Cancel
+InlineKeyboardButton(
+             text="User, Admin",
+         callback="CLOSE"),
