@@ -63,10 +63,8 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
             InlineKeyboardButton(text="Support", url=f"https://t.me/SpotifyStreamMusic"),
         ],
         [
-            InlineKeyboardButton(
-                text=f"String",
-                url=f"https://t.me/StringSessionUbot_bot?start=start",
-            )
+            InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close"
+            ),
         ],
     ]
     return buttons
@@ -330,7 +328,7 @@ def queue_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="ᴄʟᴏsᴇ", callback_data=f"ADMIN CloseA|{chat_id}"
+                text="ᴄʟᴏsᴇ", callback_data=f"ADMIN Close|{chat_id}"
             )
         ],
     ]
