@@ -1,0 +1,57 @@
+#don't copy
+
+from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
+
+from config import PLAYLIST_IMG_URL, PRIVATE_BOT_MODE, adminlist
+from strings import get_string
+from AlexaMusic import YouTube, app
+from AlexaMusic.misc import SUDOERS
+from AlexaMusic.utils.database import (get_cmode, get_lang,
+                                       get_playmode, get_playtype,
+                                       is_active_chat,
+                                       is_commanddelete_on,
+                                       is_served_private_chat)
+from AlexaMusic.utils.database.memorydatabase import is_maintenance
+from AlexaMusic.utils.inline.playlist import botplaylist_markup
+
+
+
+CLOSE=(
+[
+   [
+
+    InlineKeyboardButton(
+            text="Support",
+        callback="CLOSE"
+),
+    InlineKeyboardButton(
+            text="Menu",
+         callback="CLOSE"
+),
+    InlineKeyboardButton(
+            text="Owner",
+         callback="CLOSE"
+),
+   ],
+  [
+     InlineKeyboardButton(
+            text="Albots",
+         callback="CLOSE"
+),
+     InlineKeyboardButton(
+             text="Sudo",
+         callback="CLOSE"),
+    ]
+  ]
+)
+return await command(
+            client,
+            message,
+            _,
+            chat_id,
+            video,
+            channel,
+            playmode,
+            url,
+            fplay,
+)
