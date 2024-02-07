@@ -1,13 +1,4 @@
-# Copyright (C) 2024 by Alexa_Help @ Github, < https://github.com/TheTeamAlexa >
-# Subscribe On YT < Jankari Ki Duniya >. All rights reserved. © Alexa © Yukki.
 
-""""
-TheTeamAlexa is a project of Telegram bots with variety of purposes.
-Copyright (c) 2024 -present Team=Alexa <https://github.com/TheTeamAlexa>
-
-This program is free software: you can redistribute it and can modify
-as you want or you can collabe if you have new ideas.
-"""
 import asyncio
 
 from pyrogram.enums import ChatMemberStatus
@@ -101,7 +92,7 @@ def PlayWrapper(command):
                 sub = await app.export_chat_invite_link(MUST_JOIN)
                 kontol = InlineKeyboardMarkup(
                     [
-                        [InlineKeyboardButton("📝 JOIN DULU", url=sub)]
+                        [InlineKeyboardButton("🎵 GABUNG DULU", url=sub)]
                     ]
                 )
                 return await message.reply_text(_["force_sub"].format(message.from_user.mention), reply_markup=kontol)
