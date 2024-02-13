@@ -236,7 +236,7 @@ stream_4 : "🎥 **Memulai Streaming** 💡\n\n**📀 Judul:** [{0}]({1})\n⏰ *
 # Tombol Sebaris
 
 #Tombol Umum
-CLOSE_BUTTON : "⚙️ Close"
+CLOSE_BUTTON : "⚙️ ᴄʟᴏsᴇ"
 CLOSEMENU_BUTTON : "❓ Tutup Menu"
 BACK_BUTTON : "⬅ Kembali"
 UNBAN_BUTTON : "🗑 Unban Asisten"
