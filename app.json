@@ -15,12 +15,12 @@
     "env": {
       "API_ID": {
         "description": "Get this value from https://my.telegram.org",
-        "value": "",
+        "value": "26724473",
         "required": true
       },
       "API_HASH": {
         "description": "Get this value from https://my.telegram.org",
-        "value": "",
+        "value": "7bc7d1f9b2f3d3f1bfd272db56ac0ba1",
         "required": true
       },
       "BOT_TOKEN": {
@@ -30,7 +30,7 @@
       },
       "OWNER_ID": {
         "description": "The user id(s) of user(s) whom you would like to add as a OWNER. Multiple values shall be seperated with a space.",
-        "value": "5303133436",
+        "value": "940232666",
         "required": true
       },        
       "MONGO_DB_URI": {
@@ -55,8 +55,8 @@
           },
       "MUST_JOIN": {
         "description": "Your channels/group",
-        "value": "",
-        "required": false
+        "value": "@SpotifyStream_Id",
+        "required": true
       },
       "LOG_GROUP_ID": {
         "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Use only Group. Please don't use Channel ID.",
