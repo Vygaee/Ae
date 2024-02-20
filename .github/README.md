@@ -1,7 +1,5 @@
 hallo
-https://t.me/Bacot
 
-https://dashboard.heroku.com/new?template=https://github.com/Vygaee/Ae.git
 
     
 <h4> ᴄʟɪᴄᴋ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ᴛᴏ ᴅᴇᴘʟᴏʏ ᴀʟᴇxᴀ ᴏɴ ʜᴇʀᴏᴋᴜ</h4>    
